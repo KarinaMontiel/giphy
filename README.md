@@ -16,7 +16,7 @@ Make sure to check off your items as you complete them. [ ] => [x]
 - [ ] Make your site live on gh-pages
 
 ### JS
-- [ ] Create  an AJAX function inseide the click handler
+- [ ] Create  an AJAX function inside the click handler
 - [ ] Get the response from using your search URL https://api.giphy.com/v1/gifs/search?q=puppy&rating=pg&api_key=dc6zaTOxFJmzC
 - [ ] Display the original image to the screen
 
