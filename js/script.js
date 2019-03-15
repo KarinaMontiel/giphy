@@ -21,3 +21,19 @@ $("#search-button").click(function(){
   
 });
 
+$("#mic").click(function(){
+    $("#mic").addClass("active");
+    var recognition = new window.webkitSpeechRecognition();
+    recognition.onresult = function(event) {
+        var text = event.results[0][0].transcript;
+        console.log(text);
+    };
+
+    recognition.onend = function() {
+		console.log("Speech Recognition is ended.");
+		$(".microphone").removeClass("active");
+	};
+	    
+    recognition.start();
+});
+

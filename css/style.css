@@ -12,3 +12,37 @@ footer {
     padding-top: 100px;
     margin: 50px 0;
 }
+
+#mic{
+    width:50px;
+    height:auto;
+    border-radius: 50px;
+}
+
+#search-button{
+    color:white;
+    border-color: whitesmoke;
+}
+
+
+#search-button:hover {
+  background-image: linear-gradient(red, yellow); 
+  color: white;
+}
+
+
+.active {
+	border-radius: 50px;
+	animation: shadow-pulse 1s infinite;
+}
+
+
+@keyframes shadow-pulse {
+	0% {
+		box-shadow: 0 0 0 0px rgba(186, 255, 243);
+	}
+	100% {
+		box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+	}
+}
+
