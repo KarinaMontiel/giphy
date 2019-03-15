@@ -31,7 +31,7 @@ $("#mic").click(function(){
 
     recognition.onend = function() {
 		console.log("Speech Recognition is ended.");
-		$(".microphone").removeClass("active");
+		$("#mic").removeClass("active");
 	};
 	    
     recognition.start();
